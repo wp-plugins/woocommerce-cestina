@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce čeština
 Plugin URI: http://wpguru.eu
 Description: Přeloží plugin WooCommerce do češtiny.
-Version: 1.2
+Version: 1.3
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 Text Domain: wcc
@@ -37,4 +37,4 @@ function wcc_load_textdomain() {
 	if ( file_exists( $mofile ) )
 		return load_textdomain( 'woocommerce', $mofile );
 }
-add_action( 'bp_loaded', 'wcc_load_textdomain' );
+add_action( 'woocommerce_loaded', 'wcc_load_textdomain' );
