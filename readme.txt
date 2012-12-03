@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WooCommerce, čeština, WooCommerce čeština,
 Requires at least: 3.0
 Tested up to: 3.4.2
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -17,11 +17,12 @@ Přeloží plugin WooCommerce do češtiny.
 
 Instalace je velmi jednoduchá
 
-1. Nainstalujte plugin přes administraci v Pluginy.
-1. Activujte plugin.
+[youtube http://www.youtube.com/watch?v=AshYjkq3byU]
 
 == Screenshots ==
-Již brzy
+1. Přidat nový produkt
+2. Úprava objednávky
+3. Přidat nový kupón 
 
 == Frequently Asked Questions ==
 
@@ -30,6 +31,9 @@ Našel jsem chybu, co mám dělat?
 Pokud naleznete chybu, zdělte nám to prosím v našem fóru [WpGuru.eu](http://wpguru.eu/forum/?mingleforumaction=viewforum&f=11.0)
 
 == Changelog ==
+
+= 1.6 =
+Další přeložené řetězce
 
 = 1.5 =
 Další přeložené řetězce a opravy menších chyb
