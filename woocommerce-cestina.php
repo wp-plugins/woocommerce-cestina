@@ -1,12 +1,11 @@
 <?php
 /*
 Plugin Name: WooCommerce čeština
-Plugin URI: http://wpguru.eu
+Plugin URI: http://expres-web.cz
 Description: Přeloží plugin WooCommerce do češtiny.
-Version: 2.0
+Version: 2.1
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
-Text Domain: wcc
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,12 +28,20 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Maybe load the WooCommerce čeština.
  *
- * @since 1.0
+ * @since 2.1
  */
 function wcc_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/user/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
 
 	if ( file_exists( $mofile ) )
 		return load_textdomain( 'woocommerce', $mofile );
 }
 add_action( 'woocommerce_loaded', 'wcc_load_textdomain' );
+
+function wcca_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/admin/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'woocommerce', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wcca_load_textdomain' );
