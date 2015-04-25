@@ -1,0 +1,72 @@
+=== WooCommerce čeština ===
+Contributors: expres-web
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
+Tags: WooCommerce, čeština, WooCommerce čeština,
+Requires at least: 3.0
+Tested up to: 3.5.2
+Stable tag: 2.1
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+
+Přeloží plugin WooCommerce do češtiny v četně administrace.
+
+
+== Installation ==
+
+Instalace je velmi jednoduchá
+
+[youtube http://www.youtube.com/watch?v=AshYjkq3byU]
+
+== Screenshots ==
+1. Zobrazení objednávek
+2. Pridat nový produkt
+3. Přidat nový kupón
+4. Nastavení WooCommerce 
+
+== Frequently Asked Questions ==
+
+Našel jsem chybu, co mám dělat?
+
+Pokud naleznete chybu, zdělte nám to prosím.
+
+== Changelog ==
+
+= 2.1 = 
+* Provede překlad pro uzivatele a administraci
+* Otestováno na WordPress v 4.2
+* Otestováno na WooCommerce verze 2.3.x 
+
+= 2.0 = 
+* Otestováno na WordPress v 3.5.2
+
+= 1.9 = 
+* Další přeložené řetezce
+
+= 1.8 = 
+* Další přeložené řetezce
+
+= 1.7 = 
+* Otestováno na WordPress v 3.5
+
+= 1.6 =
+* Další přeložené řetězce
+
+= 1.5 =
+* Další přeložené řetězce a opravy menších chyb
+
+= 1.4 =
+* Další přeložené řetězce
+
+= 1.3 =
+* Oprava chyby nefunkčnosti češtiny
+
+= 1.2 =
+* Napojení na wordpress.org. Přidány další překlady
+
+= 1.1 =
+* Oprava menších chyb v předozím překladu. Přeloženy další řetězce.
+
+= 1.0 =
+* Spustění a zveřejnění pluginu.
