@@ -17,7 +17,13 @@ Přeloží plugin WooCommerce do češtiny v četně administrace.
 
 Instalace je velmi jednoduchá
 
-[youtube http://www.youtube.com/watch?v=AshYjkq3byU]
+1. Jděte to pluginy - instalace pluginu
+2. Vyhledejte WooCommerce čeština
+3. Dejte instalovat
+4. Klikněte na aktivovat plugin
+5. Hotovo
+
+[youtube https://www.youtube.com/watch?v=smMlFmtAV0M]
 
 == Screenshots ==
 1. Zobrazení objednávek
