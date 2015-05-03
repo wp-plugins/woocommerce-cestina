@@ -16,7 +16,7 @@ Přeloží plugin WooCommerce do češtiny včetně dodatků
 
 1. Uživatelskou část WooCommerce
 1. Administraci WooCommerce
-1. Rozšíření WooCommerce Admin Bar Addition <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip" target="_blank">plugin naleznete zde</a>
+1. Rozšíření WooCommerce Admin Bar Addition <a href="https://wordpress.org/plugins/woocommerce-admin-bar-addition/" target="_blank">plugin naleznete zde</a>
 
 
 == Installation ==
