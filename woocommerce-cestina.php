@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce čeština
 Plugin URI: http://expres-web.cz
 Description: Přeloží plugin WooCommerce do češtiny.
-Version: 2.1
+Version: 2.1.1
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 
@@ -45,3 +45,11 @@ function wcca_load_textdomain() {
 		return load_textdomain( 'woocommerce', $mofile );
 }
 add_action( 'woocommerce_loaded', 'wcca_load_textdomain' );
+
+function wccb_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/bar/' . apply_filters( 'woocommerce-admin-bar-addition_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'woocommerce-admin-bar-addition', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wccb_load_textdomain' );

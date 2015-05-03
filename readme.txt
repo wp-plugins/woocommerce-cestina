@@ -4,13 +4,19 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WooCommerce, čeština, WooCommerce čeština,
 Requires at least: 3.0
 Tested up to: 3.5.2
-Stable tag: 2.1
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Přeloží plugin WooCommerce do češtiny v četně administrace.
+Přeloží plugin WooCommerce do češtiny včetně dodatků
+
+= Tento plugin Vám přeloží do češtiny: =
+
+1. Uživatelskou část WooCommerce
+1. Administraci WooCommerce
+1. Rozšíření WooCommerce Admin Bar Addition <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip" target="_blank">plugin naleznete zde</a>
 
 
 == Installation ==
@@ -33,11 +39,18 @@ Instalace je velmi jednoduchá
 
 == Frequently Asked Questions ==
 
-Našel jsem chybu, co mám dělat?
+= Našel jsem chybu, co mám dělat? =
 
-Pokud naleznete chybu, zdělte nám to prosím.
+Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/support/plugin/woocommerce-cestina">ve fóra podpory</a>
+
+= Mám rozšíření, je možné ho přeložit? =
+
+Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wordpress.org/support/plugin/woocommerce-cestina">do fóra podpory</a> nebo přes kontaktní formulář.
 
 == Changelog ==
+
+= 2.1.1 = 
+* Přeloží rozšíření WooCommerce Admin Bar Addition 
 
 = 2.1 = 
 * Provede překlad pro uzivatele a administraci
