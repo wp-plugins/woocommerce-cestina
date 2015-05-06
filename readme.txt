@@ -3,7 +3,7 @@ Contributors: expres-web
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: WooCommerce, čeština, WooCommerce čeština,
 Requires at least: 3.0
-Tested up to: 3.5.2
+Tested up to: 4.2
 Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -16,7 +16,7 @@ Přeloží plugin WooCommerce do češtiny včetně dodatků
 
 1. Uživatelskou část WooCommerce
 1. Administraci WooCommerce
-1. Rozšíření WooCommerce Admin Bar Addition <a href="https://wordpress.org/plugins/woocommerce-admin-bar-addition/" target="_blank">plugin naleznete zde</a>
+1. Rozšíření WooCommerce Admin Bar Addition <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip" target="_blank">plugin naleznete zde</a>
 
 
 == Installation ==
