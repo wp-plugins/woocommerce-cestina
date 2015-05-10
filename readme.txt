@@ -52,6 +52,9 @@ Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wor
 = 2.1.1 = 
 * Přeloží rozšíření WooCommerce Admin Bar Addition 
 
+= 2.1.1 = 
+* Přeloží rozšíření WooCommerce Admin Bar Addition 
+
 = 2.1 = 
 * Provede překlad pro uživatele a administraci
 * Otestováno na WordPress v 4.2
