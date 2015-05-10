@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WooCommerce, čeština, WooCommerce čeština,
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -16,7 +16,9 @@ Přeloží plugin WooCommerce do češtiny včetně dodatků
 
 1. Uživatelskou část WooCommerce
 1. Administraci WooCommerce
-1. Rozšíření WooCommerce Admin Bar Addition <a href="https://github.com/expres-web/ceske-pluginy/releases/download/1.0.0/ceske-pluginy.zip" target="_blank">plugin naleznete zde</a>
+1. Rozšíření WooCommerce Admin Bar Addition <a href="https://wordpress.org/plugins/woocommerce-admin-bar-addition/" target="_blank">plugin naleznete zde</a>
+1. Rozšíření WooCommerce Print Invoice & Delivery Note <a href="https://wordpress.org/plugins/woocommerce-delivery-notes/" target="_blank">plugin naleznete zde</a>
+1. Rozšíření WooCommerce - All in One SEO Pack <a href="https://wordpress.org/plugins/woocommerce-all-in-one-seo-pack/" target="_blank">plugin naleznete zde</a>
 
 
 == Installation ==
@@ -41,7 +43,7 @@ Instalace je velmi jednoduchá
 
 = Našel jsem chybu, co mám dělat? =
 
-Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/support/plugin/woocommerce-cestina">ve fóra podpory</a>
+Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/support/plugin/woocommerce-cestina">ve fóru podpory</a>
 
 = Mám rozšíření, je možné ho přeložit? =
 
@@ -49,11 +51,16 @@ Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wor
 
 == Changelog ==
 
+= 2.1.2 = 
+* Přeložené další řetězce
+* Přeloží do češtiny WooCommerce Print Invoice & Delivery Note
+* Přeloží do češtiny WooCommerce - All in One SEO Pack
+
 = 2.1.1 = 
-* Přeloží rozšíření WooCommerce Admin Bar Addition 
+* Přeloží do češtiny rozšíření WooCommerce Admin Bar Addition 
 
 = 2.1 = 
-* Provede překlad pro uzivatele a administraci
+* Provede překlad pro uživatele a administraci
 * Otestováno na WordPress v 4.2
 * Otestováno na WooCommerce verze 2.3.x 
 

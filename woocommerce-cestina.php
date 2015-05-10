@@ -1,9 +1,10 @@
 <?php
 /*
 Plugin Name: WooCommerce čeština
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Plugin URI: http://expres-web.cz
 Description: Přeloží plugin WooCommerce do češtiny.
-Version: 2.1.1
+Version: 2.1.2
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 
@@ -30,6 +31,8 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  *
  * @since 2.1
  */
+ 
+// Překlad uživ. částni
 function wcc_load_textdomain() {
 	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/user/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
 
@@ -38,6 +41,7 @@ function wcc_load_textdomain() {
 }
 add_action( 'woocommerce_loaded', 'wcc_load_textdomain' );
 
+// Překlad admin. částni
 function wcca_load_textdomain() {
 	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/admin/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
 
@@ -46,10 +50,29 @@ function wcca_load_textdomain() {
 }
 add_action( 'woocommerce_loaded', 'wcca_load_textdomain' );
 
+// Překlad Admin Bar Addition
 function wccb_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/bar/' . apply_filters( 'woocommerce-admin-bar-addition_locale', get_locale() ) . '.mo';
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/admin-bar-addition/' . apply_filters( 'woocommerce-admin-bar-addition_locale', get_locale() ) . '.mo';
 
 	if ( file_exists( $mofile ) )
 		return load_textdomain( 'woocommerce-admin-bar-addition', $mofile );
 }
 add_action( 'woocommerce_loaded', 'wccb_load_textdomain' );
+
+// Překlad All in One Seo pack
+function wccs_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/all-in-one-seo-pack/' . apply_filters( 'woo_ai_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'woo_ai', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wccs_load_textdomain' );
+
+// Překlad Delivery notes
+function wccdn_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/delivery-notes/' . apply_filters( 'woocommerce-delivery-notes_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'woocommerce-delivery-notes', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wccdn_load_textdomain' );
