@@ -53,7 +53,7 @@ Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wor
 * Přeloží rozšíření WooCommerce Admin Bar Addition 
 
 = 2.1 = 
-* Provede překlad pro uzivatele a administraci
+* Provede překlad pro uživatele a administraci
 * Otestováno na WordPress v 4.2
 * Otestováno na WooCommerce verze 2.3.x 
 
