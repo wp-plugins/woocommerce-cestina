@@ -4,7 +4,7 @@ Plugin Name: WooCommerce čeština
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Plugin URI: http://expres-web.cz
 Description: Přeloží plugin WooCommerce do češtiny.
-Version: 2.1.2
+Version: 2.1.3
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 
@@ -76,3 +76,21 @@ function wccdn_load_textdomain() {
 		return load_textdomain( 'woocommerce-delivery-notes', $mofile );
 }
 add_action( 'woocommerce_loaded', 'wccdn_load_textdomain' );
+
+// Překlad Video product tab
+function wccvpt_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/video-product-tab/' . apply_filters( 'wc_video_product_tab_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'wc_video_product_tab', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wccvpt_load_textdomain' );
+
+// Překlad Photos product tab
+function wccppt_load_textdomain() {
+	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/photos-product-tab/' . apply_filters( 'wc_photos_product_tab_locale', get_locale() ) . '.mo';
+
+	if ( file_exists( $mofile ) )
+		return load_textdomain( 'wc_photos_product_tab', $mofile );
+}
+add_action( 'woocommerce_loaded', 'wccppt_load_textdomain' );
