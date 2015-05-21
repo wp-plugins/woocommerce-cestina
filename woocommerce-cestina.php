@@ -2,9 +2,9 @@
 /*
 Plugin Name: WooCommerce čeština
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
-Plugin URI: http://expres-web.cz
-Description: Přeloží plugin WooCommerce do češtiny.
-Version: 2.1.3
+Plugin URI: http://wptranslations.eu/woocommerce-cestina/
+Description: Přeloží plugin WooCommerce do češtiny včetně doplňků.
+Version: 2.1.4
 Author: Expres-Web.cz
 Author URI: http://www.expres-web.cz
 
