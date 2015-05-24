@@ -3,10 +3,10 @@
 Plugin Name: WooCommerce čeština
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Plugin URI: http://wptranslations.eu/woocommerce-cestina/
-Description: Přeloží plugin WooCommerce do češtiny včetně doplňků.
-Version: 2.1.4
-Author: Expres-Web.cz
-Author URI: http://www.expres-web.cz
+Description: Přeloží plugin WooCommerce do češtiny včetně dodatků (do verze 2.2). Více naleznete na stránce (https://wptranslations.eu)
+Version: 2.1.5
+Author: Expres-Web.cz & wpranslations.eu
+Author URI: http://wptranslations.eu
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -32,6 +32,21 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * @since 2.1
  */
  
+	/**********  Vytvoreni menu hlavni **********/
+add_action( 'admin_menu', 'register_my_custom_menu_page' );
+
+function register_my_custom_menu_page(){
+	add_menu_page( 'WooCommerce čeština', 'Woo čeština', 'activate_plugins', 'Info', 'ObsahUvodWC', plugins_url( 'woocommerce-cestina\img\cz.png' ), 56.6 ); 
+}
+
+// Obsah Kontaktní fomulář
+function ObsahUvodWC() {
+
+
+include 'info.php';
+
+}
+
 // Překlad uživ. částni
 function wcc_load_textdomain() {
 	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/user/' . apply_filters( 'woocommerce_locale', get_locale() ) . '.mo';
@@ -94,3 +109,14 @@ function wccppt_load_textdomain() {
 		return load_textdomain( 'wc_photos_product_tab', $mofile );
 }
 add_action( 'woocommerce_loaded', 'wccppt_load_textdomain' );
+
+	// Funkce pro přidání CSS souboru do hlavičky administrace
+    function WCC_PridaniCssSouboru(){
+        wp_enqueue_style('woocommerce-cestina-css', plugin_dir_url(__FILE__).'design/style.css');
+    }
+
+	/**********   Konec definice funkcí   **********/
+
+
+	// Spuštění funkce pro přidání CSS souboru do administrace
+	add_action('init', 'WCC_PridaniCssSouboru');

@@ -1,16 +1,16 @@
 === WooCommerce čeština ===
-Contributors: expres-web
+Contributors: expres-web, wptranslations
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: WooCommerce, čeština, WooCommerce čeština, Admin Bar Addition, Admin Bar Addition čeština, Print Invoice & Delivery Note, Print Invoice & Delivery Note čeština, WooCommerce All in One SEO Pack, WooCommerce All in One SEO Pack čeština, Video Product Tab, Video Product Tab čeština, Photos Product Tab, Photos Product Tab čeština, 
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 2.1.4
+Stable tag: 2.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
 
-Přeloží plugin WooCommerce do češtiny včetně dodatků
+Přeloží plugin WooCommerce do češtiny včetně dodatků (do verze 2.2). Více naleznete na stránce <a href="https://wptranslations.eu/" target="_blank">wptranslations.eu</a>
 
 = Tento plugin Vám přeloží do češtiny: =
 
@@ -39,7 +39,8 @@ Instalace je velmi jednoduchá
 1. Zobrazení objednávek
 2. Pridat nový produkt
 3. Přidat nový kupón
-4. Nastavení WooCommerce 
+4. Nastavení WooCommerce
+5. Obsah Woo čeština 
 
 == Frequently Asked Questions ==
 
@@ -52,6 +53,10 @@ Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/su
 Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wordpress.org/support/plugin/woocommerce-cestina">do fóra podpory</a> nebo přes kontaktní formulář.
 
 == Changelog ==
+
+= 2.1.5 = 
+* Přidání stránky do Administrace WordPress (Woo čeština)
+* Přidán .po soubor
 
 = 2.1.4 = 
 * Přeložené další řetězce
@@ -79,10 +84,10 @@ Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wor
 * Otestováno na WordPress v 3.5.2
 
 = 1.9 = 
-* Další přeložené řetezce
+* Další přeložené řetězce
 
 = 1.8 = 
-* Další přeložené řetezce
+* Další přeložené řetězce
 
 = 1.7 = 
 * Otestováno na WordPress v 3.5
@@ -103,7 +108,7 @@ Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wor
 * Napojení na wordpress.org. Přidány další překlady
 
 = 1.1 =
-* Oprava menších chyb v předozím překladu. Přeloženy další řetězce.
+* Oprava menších chyb v předchozím překladu. Přeloženy další řetězce.
 
 = 1.0 =
-* Spustění a zveřejnění pluginu.
+* Spuštění a zveřejnění pluginu.
