@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WooCommerce, čeština, WooCommerce čeština, Admin Bar Addition, Admin Bar Addition čeština, Print Invoice & Delivery Note, Print Invoice & Delivery Note čeština, WooCommerce All in One SEO Pack, WooCommerce All in One SEO Pack čeština, Video Product Tab, Video Product Tab čeština, Photos Product Tab, Photos Product Tab čeština, 
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 2.1.6
+Stable tag: 2.1.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,15 +18,14 @@ Přeloží plugin WooCommerce do češtiny.
 * Administraci WooCommerce
 
 > <strong>WooCommerce čeština Pack</strong><br>
-> Vyuříváte známé a žádáné rozšíření (pluginy) pro WooCommerce?
-> Nyní si můžete zdarma stáhnout <a href="http://wptranslations.eu/woocommerce-cestina-pack/" target="_blank">WooCommerce čeština Pack</a> který obsahuje níže popsané překlady a další stále přidáváme:
-> Uživatelskou část WooCommerce
-> Administraci WooCommerce
-> Rozšíření WooCommerce Admin Bar Addition <a href="https://wordpress.org/plugins/woocommerce-admin-bar-addition/" target="_blank">plugin naleznete zde</a>
-> Rozšíření WooCommerce Print Invoice & Delivery Note <a href="https://wordpress.org/plugins/woocommerce-delivery-notes/" target="_blank">plugin naleznete zde</a>
-> Rozšíření WooCommerce All in One SEO Pack <a href="https://wordpress.org/plugins/woocommerce-all-in-one-seo-pack/" target="_blank">plugin naleznete zde</a>
-> Rozšíření WooCommerce Video Product Tab <a href="https://wordpress.org/plugins/woocommerce-video-product-tab/" target="_blank">plugin naleznete zde</a>
-> Rozšíření WooCommerce Photos Product Tab <a href="https://wordpress.org/plugins/woocommerce-photos-product-tab/" target="_blank">plugin naleznete zde</a>
+> Využíváte známé a žádané rozšíření (pluginy) pro WooCommerce? Nyní si můžete zdarma stáhnout <a href="http://wptranslations.eu/woocommerce-cestina-pack/" target="_blank">WooCommerce čeština Pack</a> který obsahuje níže popsané překlady a další stále přidáváme:</p>
+> Uživatelskou část WooCommerce<br>
+> Administraci WooCommerce<br>
+> Rozšíření WooCommerce Admin Bar Addition <a href="https://wordpress.org/plugins/woocommerce-admin-bar-addition/" target="_blank">plugin naleznete zde</a><br>
+> Rozšíření WooCommerce Print Invoice & Delivery Note <a href="https://wordpress.org/plugins/woocommerce-delivery-notes/" target="_blank">plugin naleznete zde</a><br>
+> Rozšíření WooCommerce All in One SEO Pack <a href="https://wordpress.org/plugins/woocommerce-all-in-one-seo-pack/" target="_blank">plugin naleznete zde</a><br>
+> Rozšíření WooCommerce Video Product Tab <a href="https://wordpress.org/plugins/woocommerce-video-product-tab/" target="_blank">plugin naleznete zde</a><br>
+> Rozšíření WooCommerce Photos Product Tab <a href="https://wordpress.org/plugins/woocommerce-photos-product-tab/" target="_blank">plugin naleznete zde</a><br>
 
 Na webu <a href="http://wptranslations.eu/" target="_blank">wptranslations.eu</a> naleznete také jednotlivé překlady, které stále přidáváme a rozšiřujeme.
 
@@ -61,9 +60,6 @@ Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/su
 Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wordpress.org/support/plugin/woocommerce-cestina">do fóra podpory</a> nebo přes kontaktní formulář.
 
 == Changelog ==
-
-= 2.1.6 = 
-* Rozdělení pluginu
 
 = 2.1.5 = 
 * Přidání stránky do Administrace WordPress (Woo čeština)
