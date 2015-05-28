@@ -3,10 +3,11 @@
 Plugin Name: WooCommerce čeština
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Plugin URI: http://wptranslations.eu/woocommerce-cestina/
-Description: Přeloží plugin WooCommerce do češtiny včetně dodatků (do verze 2.2). Více naleznete na stránce (https://wptranslations.eu)
-Version: 2.1.5
+Description: Přeloží plugin WooCommerce do češtiny. uživatelskou i admin část.
+Version: 2.2
 Author: Expres-Web.cz & wpranslations.eu
 Author URI: http://wptranslations.eu
+Text Domain: woocommerce-cestina
 
 This program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -29,7 +30,7 @@ if ( ! defined( 'ABSPATH' ) ) exit;
 /**
  * Maybe load the WooCommerce čeština.
  *
- * @since 2.1
+ * @since 2.2
  */
  
 	/**********  Vytvoreni menu hlavni **********/
@@ -65,51 +66,6 @@ function wcca_load_textdomain() {
 }
 add_action( 'woocommerce_loaded', 'wcca_load_textdomain' );
 
-// Překlad Admin Bar Addition
-function wccb_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/admin-bar-addition/' . apply_filters( 'woocommerce-admin-bar-addition_locale', get_locale() ) . '.mo';
-
-	if ( file_exists( $mofile ) )
-		return load_textdomain( 'woocommerce-admin-bar-addition', $mofile );
-}
-add_action( 'woocommerce_loaded', 'wccb_load_textdomain' );
-
-// Překlad All in One Seo pack
-function wccs_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/all-in-one-seo-pack/' . apply_filters( 'woo_ai_locale', get_locale() ) . '.mo';
-
-	if ( file_exists( $mofile ) )
-		return load_textdomain( 'woo_ai', $mofile );
-}
-add_action( 'woocommerce_loaded', 'wccs_load_textdomain' );
-
-// Překlad Delivery notes
-function wccdn_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/delivery-notes/' . apply_filters( 'woocommerce-delivery-notes_locale', get_locale() ) . '.mo';
-
-	if ( file_exists( $mofile ) )
-		return load_textdomain( 'woocommerce-delivery-notes', $mofile );
-}
-add_action( 'woocommerce_loaded', 'wccdn_load_textdomain' );
-
-// Překlad Video product tab
-function wccvpt_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/video-product-tab/' . apply_filters( 'wc_video_product_tab_locale', get_locale() ) . '.mo';
-
-	if ( file_exists( $mofile ) )
-		return load_textdomain( 'wc_video_product_tab', $mofile );
-}
-add_action( 'woocommerce_loaded', 'wccvpt_load_textdomain' );
-
-// Překlad Photos product tab
-function wccppt_load_textdomain() {
-	$mofile = WP_PLUGIN_DIR . '/woocommerce-cestina/jazyky/photos-product-tab/' . apply_filters( 'wc_photos_product_tab_locale', get_locale() ) . '.mo';
-
-	if ( file_exists( $mofile ) )
-		return load_textdomain( 'wc_photos_product_tab', $mofile );
-}
-add_action( 'woocommerce_loaded', 'wccppt_load_textdomain' );
-
 	// Funkce pro přidání CSS souboru do hlavičky administrace
     function WCC_PridaniCssSouboru(){
         wp_enqueue_style('woocommerce-cestina-css', plugin_dir_url(__FILE__).'design/style.css');
@@ -120,3 +76,5 @@ add_action( 'woocommerce_loaded', 'wccppt_load_textdomain' );
 
 	// Spuštění funkce pro přidání CSS souboru do administrace
 	add_action('init', 'WCC_PridaniCssSouboru');
+	
+/**

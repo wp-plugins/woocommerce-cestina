@@ -1,5 +1,5 @@
 === WooCommerce čeština ===
-Contributors: wptranslations
+Contributors: expres-web, wptranslations
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=7F53XKXAB2HSG
 Tags: WooCommerce, čeština, WooCommerce čeština, Admin Bar Addition, Admin Bar Addition čeština, Print Invoice & Delivery Note, Print Invoice & Delivery Note čeština, WooCommerce All in One SEO Pack, WooCommerce All in One SEO Pack čeština, Video Product Tab, Video Product Tab čeština, Photos Product Tab, Photos Product Tab čeština, 
 Requires at least: 3.0
@@ -34,7 +34,7 @@ Na webu <a href="http://wptranslations.eu/" target="_blank">wptranslations.eu</a
 
 Instalace je velmi jednoduchá
 
-1. Jděte to pluginy - instalace pluginu
+1. Jděte do pluginy - instalace pluginu
 2. Vyhledejte WooCommerce čeština
 3. Dejte instalovat
 4. Klikněte na aktivovat plugin
@@ -43,11 +43,10 @@ Instalace je velmi jednoduchá
 [youtube https://www.youtube.com/watch?v=smMlFmtAV0M]
 
 == Screenshots ==
-1. Zobrazení objednávek
-2. Pridat nový produkt
-3. Přidat nový kupón
-4. Nastavení WooCommerce
-5. Obsah Woo čeština 
+1. Pridat nový produkt
+2. Přidat nový kupón
+3. Nastavení WooCommerce
+4. Obsah Woo čeština 
 
 == Frequently Asked Questions ==
 
