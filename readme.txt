@@ -4,7 +4,7 @@ Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_i
 Tags: WooCommerce, čeština, WooCommerce čeština, Admin Bar Addition, Admin Bar Addition čeština, Print Invoice & Delivery Note, Print Invoice & Delivery Note čeština, WooCommerce All in One SEO Pack, WooCommerce All in One SEO Pack čeština, Video Product Tab, Video Product Tab čeština, Photos Product Tab, Photos Product Tab čeština, 
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 2.1.5
+Stable tag: 2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -59,6 +59,9 @@ Pokud naleznete chybu, zdělte nám to prosím <a href="https://wordpress.org/su
 Pokud chcete nechat přeložit rozšíření, napište nám <a href="https://wordpress.org/support/plugin/woocommerce-cestina">do fóra podpory</a> nebo přes kontaktní formulář.
 
 == Changelog ==
+
+= 2.2 = 
+* Doplěná stránka Woo čeština v administraci
 
 = 2.1.5 = 
 * Přidání stránky do Administrace WordPress (Woo čeština)
